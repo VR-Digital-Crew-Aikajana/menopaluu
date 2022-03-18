@@ -27,19 +27,21 @@ export function TimelineMainBlock({ children, header, icon, id, image }: Props) 
 				</div>
 				<div className={styles.mainBlock}>
 					{header}
-					<button
-						aria-controls={contentId}
-						className="button"
-						id={labelId}
-						onClick={() => setOpen(open => !open)}
-						type="button"
-					>
-						{open ? 'Vähempi' : 'Enempi'}
-					</button>
+					{children ?
+						<button
+							aria-controls={contentId}
+							className="button"
+							id={labelId}
+							onClick={() => setOpen(open => !open)}
+							type="button"
+						>
+							{open ? 'Vähempi' : 'Enempi'}
+						</button> : null}
 				</div>
-				<div aria-labelledby={labelId} className={styles.accordion}>
-					<Animate open={open}>{children}</Animate>
-				</div>
+				{children ?
+					<div aria-labelledby={labelId} className={styles.accordion}>
+						<Animate open={open}>{children}</Animate>
+					</div> : null}
 			</div>
 		</div >
 	)

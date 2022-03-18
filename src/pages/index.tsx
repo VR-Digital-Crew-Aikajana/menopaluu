@@ -42,12 +42,12 @@ export function Article() {
 				image={<img alt="Kuva" src="/images/kuva.jpg" />}
 				header={
 					<>
+						<span className="year">1800</span>
 						<h2>Lipunmyynnin suosio verkossa yllätti palvelimen</h2>
 						<p>Uusi matkustajaliikenteen lipunmyyntijärjestelmä meni liveksi. Vain yhden palvelimen varassa pyörinyt palvelin hidastui, koska ihmiset innostuivat yli odotusten siitä, että junalippuja voikin ostaa nykyään netissä.</p>
 					</>
 				}
-			 >
-			 </TimelineMainBlock>
+			></TimelineMainBlock>
 		</>
 	)
 }
