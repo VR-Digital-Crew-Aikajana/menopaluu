@@ -15,5 +15,5 @@ export const Icon = ({ size = 1.5, src }: Props) => (
 
 interface IconProps extends Omit<Props, 'src'> {}
 
-export const TrainDetailedIcon = (props: IconProps) => <Icon {...props} src="/assets/icons/TrainDetailed.svg" />
-export const VRLogoIcon = (props: IconProps) => <Icon {...props} src="/assets/icons/VRLogo.svg" />
+export const TrainDetailedIcon = (props: IconProps) => <Icon {...props} src="/menopaluu/assets/icons/TrainDetailed.svg" />
+export const VRLogoIcon = (props: IconProps) => <Icon {...props} src="/menopaluu/assets/icons/VRLogo.svg" />
