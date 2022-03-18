@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Hero } from '../components/Hero'
 import { TrainDetailedIcon, VRLogoIcon } from '../components/Icon'
 import { TimelineMainBlock } from '../components/TimelineMainBlock'
 
@@ -7,11 +8,13 @@ export function Article() {
 	return (
 		<>
 			<VRLogoIcon size={5} />
-			<h1>Meno-paluu tulevaisuuteen</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus lobortis sem, ac fermentum leo tempor ut.</p>
-			<button className="button green10Button" type="button">
-				Nappula
-			</button>
+			<Hero src="/menopaluu/images/hero-placeholder-unicorn.jpg" height={1175} width={1600}>
+				<h1>Meno-paluu tulevaisuuteen</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus lobortis sem, ac fermentum leo tempor ut.</p>
+				<button className="button blue10InvertedButton" type="button">
+					Nappula
+				</button>
+			</Hero>
 			<TimelineMainBlock
 				id="eka-iso-juttu"
 				icon={<TrainDetailedIcon />}
