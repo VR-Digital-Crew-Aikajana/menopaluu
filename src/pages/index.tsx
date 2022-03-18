@@ -7,9 +7,8 @@ export function Article() {
 	return (
 		<>
 			<VRLogoIcon size={5} />
-			<h1>Hepskukkuu!</h1>
-			<p>Hei meillä on joku sivu.</p>
-			<p>Jossa on jotain tavaraa, yay.</p>
+			<h1>Meno-paluu tulevaisuuteen</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus lobortis sem, ac fermentum leo tempor ut.</p>
 			<button className="button green10Button" type="button">
 				Nappula
 			</button>
@@ -19,13 +18,13 @@ export function Article() {
 				image={<img alt="" src="/menopaluu/images/second-daily-pippin.jpg" height="499" width="888" />}
 				header={
 					<>
-						<h2>Testausta</h2>
-						<p>Ollapa sisältöä.</p>
+						<h2>Alussa oli juna, raide ja höyry</h2>
+						<p>Praesent pharetra velit tellus, a pulvinar ligula faucibus in. Aliquam nec eros ultricies, ullamcorper dui sit amet, aliquet nibh. Nullam erat metus, mollis non ullamcorper nec, laoreet id lectus. </p>
 					</>
 				}
 			>
-				<h3>No mutta!</h3>
-				<p>Meillähän ON sisältöä!</p>
+				<h3>Mutta ei yhtään koodia :(</h3>
+				<p>Quisque dictum erat sit amet diam dignissim varius sed id urna. Nunc varius eros odio, sed facilisis arcu pulvinar vel. Mauris semper odio ut metus feugiat, ut consequat eros rutrum.</p>
 			</TimelineMainBlock>
 			<TimelineMainBlock
 				id="toka-iso-juttu"
