@@ -34,6 +34,17 @@ export function Article() {
 				<h3>Alinomaista kontenttia</h3>
 				<p>Niin maan paljon on sitä.</p>
 			</TimelineMainBlock>
+			<TimelineMainBlock
+				id="demo-2003-tickets"
+				image={<img alt="Kuva" src="/images/kuva.jpg" />}
+				header={
+					<>
+						<h2>Lipunmyynnin suosio verkossa yllätti palvelimen</h2>
+						<p>Uusi matkustajaliikenteen lipunmyyntijärjestelmä meni liveksi. Vain yhden palvelimen varassa pyörinyt palvelin hidastui, koska ihmiset innostuivat yli odotusten siitä, että junalippuja voikin ostaa nykyään netissä.</p>
+					</>
+				}
+			 >
+			 </TimelineMainBlock>
 		</>
 	)
 }
